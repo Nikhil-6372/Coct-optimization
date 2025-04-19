@@ -64,8 +64,14 @@ Set the Lambda function as the target
 Choose a flexible time window (e.g., 15 minutes)
 
 <h9>📂 Project Structure</h9>
+
+
 .
 ├── lambda_function.py    # Python code for AWS Lambda
+
+
+
+
 
 
 
