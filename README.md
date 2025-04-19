@@ -1,4 +1,5 @@
-<h1> 🧹 AWS Lambda: Unused EBS Snapshot Cleaner </h1>
+<div align="Left">
+ <h1> 🧹 AWS Lambda: Unused EBS Snapshot Cleaner </h1>
 
 This project is part of an AWS Cost Optimization initiative that automatically deletes unused Amazon EBS snapshots, helping reduce storage costs. The solution uses **AWS Lambda**, **boto3**, and is scheduled via **Amazon EventBridge (CloudWatch Scheduler)**.
 
@@ -78,7 +79,7 @@ Choose a flexible time window (e.g., 15 minutes)
 
 
 └── README.md             # Project documentation (you are here!)
-
+</div>
 
 
 
