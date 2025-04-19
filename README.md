@@ -22,7 +22,6 @@ This project is part of an AWS Cost Optimization initiative that automatically d
 - **AWS EC2**
 - **Amazon EBS**
 - **Amazon EventBridge Scheduler**
-- **Python (boto3 library)**
 
 ---
 
