@@ -35,10 +35,40 @@ This project is part of an AWS Cost Optimization initiative that automatically d
 
 <h5> 🔍 Python Logic (Simplified) </h5>
 
-```python
-if snapshot['VolumeId'] not in used_volume_ids:
-    ec2.delete_snapshot(SnapshotId=snapshot['SnapshotId'])
-<h6>🎯 Goal: Clean up unused snapshots and save 💸 AWS costs.</h6>
+<h6>🎯 Goal:</h6>
+Clean up unused snapshots and save 💸 AWS costs.
+
+<h7>🧾 IAM Permissions (Policy Required) </h7>
+Attach the following policy to your Lambda execution role:
+{
+  "Effect": "Allow",
+  "Action": [
+    "ec2:DescribeInstances",
+    "ec2:DescribeSnapshots",
+    "ec2:DeleteSnapshot"
+  ],
+  "Resource": "*"
+}
+
+<h8>📅 Automate with EventBridge Scheduler</h8>
+To run this Lambda on a schedule:
+
+Go to Amazon EventBridge > Scheduler
+
+Create a new rule
+
+Choose fixed rate (e.g., every 1 day)
+
+Set the Lambda function as the target
+
+Choose a flexible time window (e.g., 15 minutes)
+
+<h9>📂 Project Structure</h9>
+.
+├── lambda_function.py    # Python code for AWS Lambda
+└── README.md             # Project documentation (you are here!)
 
 
- IAM Permissions (Policy Required)
+
+
+
