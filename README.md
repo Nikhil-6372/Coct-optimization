@@ -81,7 +81,7 @@ Choose a flexible time window (e.g., 15 minutes)
 └── README.md             # Project documentation (you are here!)
 </div>
 
-![Alt Here is the Success Screenshot]("C:\Users\HP\Pictures\Screenshots\Screenshot 2025-04-19 160217.png")
+"C:\Users\HP\Pictures\Screenshots\Screenshot 2025-04-19 160217.png"
 
 
 
