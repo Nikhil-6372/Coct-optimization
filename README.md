@@ -33,9 +33,8 @@ This project is part of an AWS Cost Optimization initiative that automatically d
 4. Retrieves all EBS snapshots you own
 5. Deletes snapshots that belong to volumes which are no longer attached
 
-<h5> 🔍 Python Logic (Simplified) </h5>
 
-<h6>🎯 Goal:</h6>
+<h6>🎯 Goal: </h6>
 Clean up unused snapshots and save 💸 AWS costs.
 
 <h7>🧾 IAM Permissions (Policy Required) </h7>
