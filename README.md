@@ -38,7 +38,7 @@ This project is part of an AWS Cost Optimization initiative that automatically d
 ```python
 if snapshot['VolumeId'] not in used_volume_ids:
     ec2.delete_snapshot(SnapshotId=snapshot['SnapshotId'])
-🎯 Goal: Clean up unused snapshots and save 💸 AWS costs.
+<h6>🎯 Goal: Clean up unused snapshots and save 💸 AWS costs.</h6>
 
 
  IAM Permissions (Policy Required)
