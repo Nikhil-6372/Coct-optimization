@@ -12,7 +12,7 @@ This project is part of an AWS Cost Optimization initiative that automatically d
 - ✅ Lists all EBS snapshots owned by your account
 - ✅ Deletes snapshots that are not associated with any current volume
 - ✅ Scheduled to run automatically
-- ✅ Easily extendable (e.g., delete only snapshots older than 90 days)
+- ✅ Easily extendable 
 
 ---
 
